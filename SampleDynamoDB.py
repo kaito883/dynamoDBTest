@@ -1,5 +1,13 @@
 import boto3
 
+
+##boto3については以下。(本サンプルソース含む)
+##https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/index.html
+
+##AWS IAMアクセスキーについては以下を参照
+##https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/id_credentials_access-keys.html
+##設定ファイルのローカルディレクトリ(Mac)：~/.aws/config
+
 # Get the service resource.
 dynamodb = boto3.resource('dynamodb', 'ap-northeast-1')
 
